@@ -5,13 +5,6 @@ const styles = StyleSheet.create({
         flex: 1,
         padding: 20,
     },
-    
-    image: {
-        width: 100,
-        height: 170,
-        resizeMode: 'cover',
-        borderRadius: 5,
-    },
 });
 
 export default styles;
