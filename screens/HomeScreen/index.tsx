@@ -11,6 +11,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
         <FlatList
+        horizontal={true}
           data={firstCategory.movies}
           renderItem={({item}) =>(
             <Image style={styles.image} source={{ uri: item.poster }}/>
